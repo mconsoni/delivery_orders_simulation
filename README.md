@@ -79,3 +79,7 @@ Usage: cli.py [OPTIONS] FILENAME
   --help                          Show this message and exit.
 
 ```
+Example:
+```
+# python3 cli.py test/dispatch_orders.json
+```
