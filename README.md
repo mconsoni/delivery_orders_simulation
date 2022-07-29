@@ -79,7 +79,12 @@ Usage: cli.py [OPTIONS] FILENAME
   --help                          Show this message and exit.
 
 ```
-Example:
+Examples:
+Running the simulations with default parameters:
 ```
 # python3 cli.py test/dispatch_orders.json
+```
+Running the simulations with 3 cooks in the kitchen and 5 orders per second:
+```
+# python3 cli.py -c 3 -o 5 test/dispatch_orders.json
 ```
