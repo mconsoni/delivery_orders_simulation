@@ -67,7 +67,7 @@ Usage: cli.py [OPTIONS] FILENAME
                                   Number of orders per second for the Kitchen.
                                   [default: 2]
   -c, --cooks_in_kitchen INTEGER  Number of orders that can be processed in
-                                  parallel.  [default: 2]
+                                  parallel.  [default: 1]
   -tmin, --courier_arrival_time_min INTEGER
                                   Min time for a courier to arrival.
                                   [default: 3]
